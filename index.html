@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang= "en">
     <head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Fly Like A Bird</title>
     </head>
-
-
-
     <body>
-        <div>
-            <button id= "start-button">Go flying</button>
+        <div id="container">
+            <div id="game-intro">
+                <h1>Fly Like a Bird</h1>
+                <img src="./images/plane/Shoot (3).png" alt="Shooting Plane" id="shooting-plane">
+                <button id= "start-button">Go flying</button>
+            </div>
+            <div id="instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Click the GO FLYING button to start the game</li>
+                    <li>Use the keyboard arrow keys to move the plane</li>
+                    <li>Move the plane and dodge the birds incoming</li>
+                    <li>If you hit a bird, it's GAME OVER</li>
+                </ol>
+            </div>
         </div>
-        <div id= "game-board">
-            <canvas id= "canvas" width=1460 height=1095></canvas>
-        </div>
-        <script type="text/javascript" src= "./js/index.js"></script>
-    </body>
+    
+    
+        
+       
+            
+            <script type="text/javascript" src= "./js/index.js"></script>
+        </body>
+
+
+    
 
 </html>
